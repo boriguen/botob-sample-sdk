@@ -24,4 +24,6 @@ adb push ~/Downloads/control_equations.txt /sdcard/Download/
 ## Status
 
 - The current implementation uses recursion and may not scale too far.
-- Other potential implementations include linear equation resolution [via inverse matrix method]([http://onlinemschool.com/math/assistance/equation/matr/]) or [via gaussian elimination](http://onlinemschool.com/math/assistance/equation/gaus/). 
+- Other potential implementations include linear equation resolution [via inverse matrix method]([http://onlinemschool.com/math/assistance/equation/matr/]) or [via gaussian elimination](http://onlinemschool.com/math/assistance/equation/gaus/).
+- Logging has not been added yet.
+- If the storage permission is denied, then the solve button will be disabled. The user can restart the app and accept permission or go to app info and give permission.

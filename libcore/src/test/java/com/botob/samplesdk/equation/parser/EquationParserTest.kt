@@ -78,4 +78,13 @@ class EquationParserTest {
         Assert.assertTrue(equations[3].has(Constant(3)))
         Assert.assertTrue(equations[3].has(Constant(5)))
     }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun testParse_illegalEquationNameSuccessful() {
+        // Initialize testing data.
+        val lines = listOf("offset_ = 4 + destination + 1")
+
+        // Parse equations.
+        EquationParser().parse(lines)
+    }
 }

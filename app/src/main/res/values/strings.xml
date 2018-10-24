@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Botob Sample SDK App</string>
+    <string name="main_activity_message_storage_must_enabled_via_app_info">Enable storage via app info first</string>
+    <string name="main_activity_message_resolution_failed">The equation resolution failed: %s</string>
+    <string name="main_activity_message_filepath_does_not_exist">The provided filepath does not exist</string>
+    <string name="main_activity_hint_filepath">Please input path, e.g. /my/path</string>
+    <string name="main_activity_solve_button_label">Solve</string>
 </resources>

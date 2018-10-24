@@ -6,7 +6,7 @@ import org.junit.Test
 class EquationFileTest {
 
     @Test
-    fun getFormattedSolution() {
+    fun testFormatSolution_successful() {
         val expectedSolution = "destination = 2\n" +
                 "location = 16\n" +
                 "offset = 7\n" +
